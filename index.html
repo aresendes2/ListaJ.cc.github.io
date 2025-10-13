@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista J - Pagina Oficial</title>
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="logo.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -698,7 +698,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo">
-                <img src="logo.png" alt="Lista J">
+                <img src="logo.svg" alt="Lista J">
                 <span>Lista J</span>
             </div>
             <ul class="nav-links" id="nav-links">
@@ -728,7 +728,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="logo.png" alt="Lista J Logo">
+                <img src="logo.svg" alt="Lista J Logo">
             </div>
         </div>
     </section>
@@ -835,7 +835,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="logo.png" alt="Lista J">
+                <img src="logo.svg" alt="Lista J">
                 <span>Lista J</span>
             </div>
             <p style="color: #a0aec0; margin-bottom: 1rem;">
@@ -1200,10 +1200,10 @@
         });
 
         // Check if logo exists and handle error
-        const logoImages = document.querySelectorAll('img[src="logo.png"]');
+        const logoImages = document.querySelectorAll('img[src="logo.svg"]');
         logoImages.forEach(img => {
             img.addEventListener('error', function() {
-                console.warn('⚠️ Logo não encontrado! Certifica-te que o ficheiro "logo.png" está na mesma pasta do index.html');
+                console.warn('⚠️ Logo não encontrado! Certifica-te que o ficheiro "logo.svg" está na mesma pasta do index.html');
                 // Create fallback SVG logo
                 const fallbackLogo = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImEiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmMxMDciLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNjM5NDYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9Ijk1IiBmaWxsPSIjZmZjMTA3IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMyIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNzUiIGZpbGw9IiNlNjM5NDYiLz48ZWxsaXBzZSBjeD0iMTAwIiBjeT0iNzUiIHJ4PSI1MCIgcnk9IjQwIiBmaWxsPSIjMDAwIiBvcGFjaXR5PSIwLjciLz48Y2lyY2xlIGN4PSI4NSIgY3k9IjcwIiByPSI4IiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iMTE1IiBjeT0iNzAiIHI9IjgiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI0MCIgeT0iMTMwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjMwIiBmaWxsPSIjMDAwIiByeD0iNSIvPjx0ZXh0IHg9IjEwMCIgeT0iMTUyIiBmb250LXNpemU9IjIwIiBmaWxsPSIjZmZjMTA3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2siIGZvbnQtd2VpZ2h0PSJib2xkIj5MSVNUQSBKPC90ZXh0Pjwvc3ZnPg==';
                 this.src = fallbackLogo;
